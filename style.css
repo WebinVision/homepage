@@ -1,0 +1,77 @@
+:root {
+    --main-page-color: #d67b25;
+    --text-color-main: #3b1f02;
+
+    /* --font-primary: sans-serif; */
+    --font-headings: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--font-headings);
+    background: var(--main-page-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-main);
+}
+
+.container {
+    max-width: 350px;
+    padding: 22px;
+}
+
+.main-logo {
+    display: flex;
+}
+
+.main-header-container {
+    background: rgba(184, 31, 31, 0.80);
+}
+
+.main-header-navbar {
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    width: fit-content; */
+}
+
+.main-logo-text {
+    font-size: 40px;
+}
+
+.main-logo-icon {
+    font-size: 35px;
+}
+
+.main-header-navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list-paginas {
+    position: relative;
+    left: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.header-item {
+    height: 100%;
+    position: relative;
+    display: inline-flex;
+    margin: auto 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-exposicao-empresa {
+    background: red;
+}
