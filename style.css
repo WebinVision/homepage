@@ -1,5 +1,9 @@
 :root {
+<<<<<<< HEAD
     --main-page-color: #d8a97d;
+=======
+    --main-page-color: #d67b25;
+>>>>>>> b356de2b3453af93a993f0abe9cb21be4570a829
     --text-color-main: #3b1f02;
 
     /* --font-primary: sans-serif; */
@@ -9,6 +13,7 @@
 body {
     font-family: var(--font-headings);
     background: var(--main-page-color);
+<<<<<<< HEAD
     overscroll-behavior: none;
 }
 
@@ -18,6 +23,8 @@ main {
     left: 0;
     width: 100%;
     height: 100vh;
+=======
+>>>>>>> b356de2b3453af93a993f0abe9cb21be4570a829
 }
 
 * {
@@ -32,6 +39,7 @@ a {
 }
 
 .container {
+<<<<<<< HEAD
     max-width: 360px;
     padding: 22px;
 }
@@ -69,6 +77,49 @@ a {
 }
 
 .header-list-item {
+=======
+    max-width: 350px;
+    padding: 22px;
+}
+
+.main-logo {
+    display: flex;
+}
+
+.main-header-container {
+    background: rgba(184, 31, 31, 0.80);
+}
+
+.main-header-navbar {
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    width: fit-content; */
+}
+
+.main-logo-text {
+    font-size: 40px;
+}
+
+.main-logo-icon {
+    font-size: 35px;
+}
+
+.main-header-navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list-paginas {
+    position: relative;
+    left: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.header-item {
+>>>>>>> b356de2b3453af93a993f0abe9cb21be4570a829
     height: 100%;
     position: relative;
     display: inline-flex;
@@ -77,6 +128,7 @@ a {
     align-items: center;
 }
 
+<<<<<<< HEAD
 .sticky {
     position: sticky;
     top: 0;
@@ -116,4 +168,8 @@ a {
     height: 100%;
     background-size: cover;
     background-position: center;
+=======
+.main-exposicao-empresa {
+    background: red;
+>>>>>>> b356de2b3453af93a993f0abe9cb21be4570a829
 }
