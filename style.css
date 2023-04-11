@@ -1,0 +1,119 @@
+:root {
+    --main-page-color: #d8a97d;
+    --text-color-main: #3b1f02;
+
+    /* --font-primary: sans-serif; */
+    --font-headings: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--font-headings);
+    background: var(--main-page-color);
+    overscroll-behavior: none;
+}
+
+main {
+    position: fixed;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-main);
+}
+
+.container {
+    max-width: 360px;
+    padding: 22px;
+}
+
+.header-main-container {
+    background: rgba(177, 63, 63, 0.8);
+    overflow: hidden;
+}
+
+.main-logo {
+    display: flex;
+    font-size: 40px;
+}
+
+.header-main-nav{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.header-nav-paginas {
+    position: relative;
+    width: 100%;
+    margin-left: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-list-paginas {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+}
+
+.header-list-item {
+    height: 100%;
+    position: relative;
+    display: inline-flex;
+    margin: auto 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.slider-exposicao-empresa {
+    position: fixed;
+    top: auto;
+    left: 0;
+    width: 2800px;
+    height: 100%;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.slider-inner {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider-item {
+    position: relative;
+    width: 19%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    left: -100px;
+    width: 600px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
