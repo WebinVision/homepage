@@ -105,7 +105,8 @@ a {
 }
 
 .img {
-    position: absolute;
+    position: relative;
+    pointer-events: auto;
     left: -100px;
     width: 800px;
     height: 100%;
