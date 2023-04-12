@@ -1,7 +1,7 @@
 :root {
     --main-page-color: #d8a97d;
     --text-color-main: #3b1f02;
-
+    --header-color-main: rgba(177, 63, 63, 0.8);
     /* --font-primary: sans-serif; */
     --font-headings: 'Montserrat', sans-serif;
 }
@@ -39,6 +39,9 @@ a {
 .header-main-container {
     background: rgba(177, 63, 63, 0.8);
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .main-logo {
@@ -77,20 +80,12 @@ a {
     align-items: center;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    width: 100%;
-}
-
 .slider-exposicao-empresa {
-    position: fixed;
+    position: absolute;
     top: auto;
     left: 0;
     width: 2800px;
     height: 100%;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
 }
 
 .slider-inner {
@@ -99,12 +94,12 @@ a {
     width: 100%;
     height: 70%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .slider-item {
     position: relative;
-    width: 19%;
+    width: 18%;
     height: 100%;
     overflow: hidden;
 }
@@ -112,8 +107,27 @@ a {
 .img {
     position: absolute;
     left: -100px;
-    width: 600px;
+    width: 800px;
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.parallax-text {
+    color: #b94008;
+    margin: 0;
+    width: fit-content;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    z-index: 1;
+}
+
+.main-text-homepage {
+    text-align: center;
+    position: relative;
+    margin: 5%;
+    background-color: var(--header-color-main);
 }
