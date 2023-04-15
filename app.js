@@ -29,7 +29,7 @@ function setTransform(element, transform) {
 function init() {
     sliderWidth = slider.getBoundingClientRect().width;
     imageWidth = sliderWidth / images.length;
-    document.body.style.height = `${sliderWidth - (window.innerWidth - window.innerHeight)}px`
+    // document.body.style.height = `${sliderWidth - (3*(window.innerWidth) - window.innerHeight)}px`
 }
 
 function animate() {
