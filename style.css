@@ -32,7 +32,7 @@ a {
 
 .container {
     max-width: 100vw;
-    padding: 19px;
+    padding: 0.5%;
     position: relative;
 }
 
@@ -47,7 +47,7 @@ a {
 
 .main-logo {
     display: flex;
-    font-size: 40px;
+    font-size: 3vw;
 }
 
 .header-main-nav{
@@ -72,6 +72,7 @@ a {
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+    font-size: 1vw;
 }
 
 /* .wrapper-exposicao-empresa {
@@ -81,16 +82,16 @@ a {
 
 .slider-exposicao-empresa {
     position: absolute;
-    top: 50vh;
+    top: 80vh;
     left: 30vw;
-    width: 2800px;
+    width: 270%;
     height: 100%;
 }
 
 .slider-inner {
     position: absolute;
-    top: 10%;
-    width: 100%;
+    top: 5%;
+    width: 80%;
     height: 70%;
     display: flex;
     justify-content: space-around;
@@ -106,8 +107,8 @@ a {
 .img {
     position: relative;
     pointer-events: auto;
-    left: -100px;
-    width: 800px;
+    left: -20%;
+    width: 140%;
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -124,7 +125,6 @@ a {
     bottom: 0;
 }
 
-
 .titulo {
     font-size: 5vw;
     display: flex;
@@ -134,12 +134,12 @@ a {
     width: 80%;
 }
 
-.section-1 {
+.text-section-1 {
     display: flex;
-    min-width: 100vw;
+    min-width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .texto-complementar {
@@ -147,8 +147,16 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 2vw;
     position: relative;
-    width: 80%;
+    width: 85%;
 }
 
+.text-section-2 {
+    display: flex;
+    min-width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 45%;
+}
