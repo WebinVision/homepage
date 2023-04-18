@@ -106,7 +106,6 @@ a {
 
 .img {
     position: relative;
-    pointer-events: auto;
     left: -20%;
     width: 140%;
     height: 100%;
@@ -160,3 +159,19 @@ a {
     justify-content: center;
     margin-top: 45%;
 }
+
+.img-platform {
+    max-width: 60%;
+}
+
+.footer-main-container {
+
+}
+
+/* .slider-exposicao-empresa-2 {
+    position: relative;
+    top: 100vh;
+    left: 30vw;
+    width: 270%;
+    height: 100%;
+} */
