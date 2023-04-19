@@ -88,32 +88,35 @@ span > a {
 
 .slider-exposicao-empresa {
     position: absolute;
-    top: 80vh;
-    left: 30vw;
-    width: 270%;
-    height: 100%;
+    top: 40vh;
+    left: 2vw;
+    width: 240%;
+    height: 90%;
     overflow-y: auto;
 }
 
 .slider-inner {
     position: absolute;
     top: 5%;
-    width: 80%;
+    width: 70%;
     height: 70%;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
 }
 
 .slider-item {
     position: relative;
-    width: 18%;
+    width: 20%;
     height: 100%;
     overflow: hidden;
+    margin-right: 2%;
+    left: 4vw;
+    justify-content: center;
 }
 
 .img {
     position: relative;
-    left: -20%;
+    left: -10%;
     width: 140%;
     height: 100%;
     background-size: cover;
@@ -169,6 +172,10 @@ span > a {
 
 .img-platform {
     max-width: 60%;
+}
+
+.slider-exposicao-empresa-2 {
+    
 }
 
 .footer-main-container {
